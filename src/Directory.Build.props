@@ -1,0 +1,19 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <Platforms>x64</Platforms>
+    <Platform>x64</Platform>
+    <Configurations>Release;Debug</Configurations>
+    <WarningLevel>5</WarningLevel>
+    <WarnOn>1182,3390</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Argu" Version="6.2.4" />
+    <PackageReference Include="ByteSize" Version="2.1.2" />
+  </ItemGroup>
+
+
+</Project>
